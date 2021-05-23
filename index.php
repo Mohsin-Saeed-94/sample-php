@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-
+echo $_SERVER['REMOTE_ADDR'];
 use Cowsayphp\Farm;
 
 header('Content-Type: text/plain');
